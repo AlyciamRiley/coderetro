@@ -606,6 +606,12 @@ a:focus {
 .img-rounded {
   border-radius: 0;
 }
+
+#logo {
+  border: none;
+  height: 30em;
+  width: auto;
+}
 hr {
   margin-top: 22px;
   margin-bottom: 22px;
@@ -877,6 +883,7 @@ h1,
 }
 h2,
 .h2 {
+
   font-size: 56px;
   color: #990000;
   letter-spacing: -.05em;
@@ -904,19 +911,22 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 0;
+
   margin-bottom: 22px;
+}
+.heading h2 {
+  padding-top: 22px;
 }
 p {
   margin: 0 0 22px;
 }
 .lead {
   margin-bottom: 22px;
-  font-size: 18px;
+  font-size: 16px;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 24px;
+    font-size: 16px;
   }
 }
 .text-small {
