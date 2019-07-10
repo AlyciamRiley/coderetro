@@ -19,6 +19,9 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
 
     <!-- onepage scroll stylesheet-->
     <link rel="stylesheet" href="css/onepage-scroll.css">
@@ -31,6 +34,17 @@
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124579531-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-124579531-1');
+</script>
+
   </head>
   <body>
     <div class="wrapper">
@@ -50,8 +64,6 @@
               </div>
             </div>
           </div>
-          <div class="icon faa-float animated">
-            <button id="hero-btn" type="button" class="btn btn-link"><i class="fa fa-angle-double-down"></i></button></div>
         </section>
         <!-- page 2-->
         <section id="page2">
@@ -140,33 +152,47 @@
               <div class="row">
                 <div class="col-md-12">
                   <h2 class="heading">Portfolio</h2>
-                  <p class="text-center">Click on the picture to interact with the application!</p> 
                   <div class="row">
+
+                    <!--Cats Meow-->
                     <div class="col-md-3">
-                      <div class="box"><a target="_blank" href="https://alyciamriley.github.io/the-cats-meow/" title=""><img src="img/cat.PNG" alt="" class="img-responsive"></a></div>
+                      <div class="box"><a target="_blank" href="https://alyciamriley.github.io/the-cats-meow/" title=""><img src="img/cat.PNG" alt="" class="img-responsive"></a><p class="app-description"><b>The Cats Meow</b> An interactive game that dynamically updates the HTML pages with jQuery.</p></div>
                     </div>
-                    <div class="col-md-3">
-                      <div class="box"><a target="_blank" href="https://alyciamriley.github.io/GifTastic/" title=""><img src="img/gif.PNG" alt="" class="img-responsive"></a></div>
+
+                    <!--GifTastic-->
+                    <div class="col-md-3">  
+                      <div class="box"><a target="_blank" href="https://alyciamriley.github.io/GifTastic/" title=""><img src="img/gif.PNG" alt="" class="img-responsive"></a><p class="app-description"><b>Kill the Brain, Kill the Ghoul</b> Dynamic app that utilizes the GIPHY API to populate the page with GIFs of your choice.</p></div>
                     </div>
+
+                    <!--Not Fake News-->
                     <div class="col-md-3">
-                      <div class="box"><a target="_blank" href="https://glacial-ocean-99559.herokuapp.com/" title=""><img src="img/news.PNG" alt="" class="img-responsive"></a></div>
+                      <div class="box"><a target="_blank" href="https://glacial-ocean-99559.herokuapp.com/" title=""><img src="img/news.PNG" alt="" class="img-responsive"></a><p class="app-description"><b>Not Fake News</b> Dynamic app that used MongoDB/Mongoose and Cheerio to scrape news from another site.</p></div>
                     </div>
+
+                     <!--Mood Mapper-->
                     <div class="col-md-3">
-                      <div class="box"><a  target="_blank" href="https://mood-mapper.herokuapp.com/"><img src="img/moodmapper.PNG" alt="" class="img-responsive"></a></div>
+                      <div class="box"><a  target="_blank" href="https://mood-mapper.herokuapp.com/"><img src="img/moodmapper.PNG" alt="" class="img-responsive"></a><p class="app-description"><b>MoodMapper</b> Tool that allows users to track pertinent mental health information over time.</p></div>
                     </div>
                   </div>
                   <div class="row">
+                     <!--Going Steady-->
                     <div class="col-md-3">
-                      <div class="box"><a target="_blank" href="https://going-steady.herokuapp.com/" title=""><img src="img/steady.PNG" alt="" class="img-responsive"></a></div>
+                      <div class="box"><a target="_blank" href="https://going-steady.herokuapp.com/" title=""><img src="img/steady.PNG" alt="" class="img-responsive"></a><p class="app-description"><b>Going Steady</b> Full-stack application that takes in results from users' surveys, compares their answers with other users, and displays their best match.</p></div>
                     </div>
+
+                     <!--Train Scheduler-->
                     <div class="col-md-3">
-                      <div class="box"><a  target="_blank" href="https://alyciamriley.github.io/train-scheduler/" title=""><img src="img/train.PNG" alt="" class="img-responsive"></a></div>
+                      <div class="box"><a  target="_blank" href="https://alyciamriley.github.io/train-scheduler/" title=""><img src="img/train.PNG" alt="" class="img-responsive"></a><p class="app-description"><b>Bongo Bongo Depot</b> App that provides up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.</p></div>
                     </div>
+
+                     <!--Trivia-->
                     <div class="col-md-3">
-                      <div class="box"><a  target="_blank" href="https://alyciamriley.github.io/atomic-trivia/"><img src="img/trivia.PNG" alt="" class="img-responsive"></a></div>
+                      <div class="box"><a  target="_blank" href="https://alyciamriley.github.io/atomic-trivia/"><img src="img/trivia.PNG" alt="" class="img-responsive"></a><p class="app-description"><b>Atomic Trivia</b> Trivia game that tests your knowledge of 1950's Rock n Roll.</p></div>
                     </div>
+
+                     <!--Bamazon-->
                     <div class="col-md-3">
-                      <div class="box"><a  target="_blank" href="https://drive.google.com/file/d/1hE047Xbah28gF0h7-aS5f6-_1NZMN9bJ/view"><img src="img/bamazon.PNG" alt="" class="img-responsive"></a></div>
+                      <div class="box"><a  target="_blank" href="https://drive.google.com/file/d/1hE047Xbah28gF0h7-aS5f6-_1NZMN9bJ/view"><img src="img/bamazon.PNG" alt="" class="img-responsive"></a><p class="app-description"><b>Bamazon</b> Amazon-like storefront that utilizes a mySQL database to track inventory. The app will take in orders from customers and deplete stock from the store's inventory.</p></div>
                     </div>
 
                   </div>
